@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    }
+]

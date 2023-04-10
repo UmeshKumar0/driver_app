@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
+    }
+]

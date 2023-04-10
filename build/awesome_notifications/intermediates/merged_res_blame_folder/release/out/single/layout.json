@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_lines_media.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_media.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_media_custom.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_big_media_custom.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_part_time.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/custom_dialog.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_media_cancel_action.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_media_action.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_res/release/layout/notification_template_big_media.xml",
+        "source": "/home/umesh/.gradle/caches/transforms-3/3db694473890d00d37184af94df24c4c/transformed/media-1.0.0/res/layout/notification_template_big_media.xml"
+    }
+]

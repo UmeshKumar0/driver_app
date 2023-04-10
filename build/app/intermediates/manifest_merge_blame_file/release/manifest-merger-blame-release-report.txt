@@ -1,0 +1,444 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dummy_lat_long_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:6:6-80
+11-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:6:23-77
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:7:5-81
+12-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:8:5-67
+13-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:9:5-77
+14-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+15-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:10:5-84
+15-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:10:22-82
+16    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS" />
+16-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:11:5-12:47
+16-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+17-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:13:9-89
+17-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:13:26-86
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:14:9-84
+18-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:14:26-82
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+19-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+20
+21    <queries>
+21-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+22        <intent>
+22-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+23            <action android:name="android.intent.action.GET_CONTENT" />
+23-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+23-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+24
+25            <data android:mimeType="*/*" />
+25-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+25-->[:file_picker] /home/umesh/work/Location-app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+26        </intent>
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->[:camera_android] /home/umesh/work/Location-app/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+31-->[:camera_android] /home/umesh/work/Location-app/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-62
+32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+32-->[:camera_android] /home/umesh/work/Location-app/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-71
+32-->[:camera_android] /home/umesh/work/Location-app/build/camera_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-68
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+33-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+34    <uses-permission android:name="android.permission.VIBRATE" />
+34-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+34-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+35    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+35-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+35-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+36    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+36-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+36-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+37    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+37-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+37-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[:connectivity_plus] /home/umesh/work/Location-app/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+38-->[:connectivity_plus] /home/umesh/work/Location-app/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+39    <uses-permission android:name="android.permission.WAKE_LOCK" />
+39-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+39-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
+40
+41    <uses-feature
+41-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+42        android:glEsVersion="0x00020000"
+42-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+43        android:required="true" />
+43-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+44
+45    <permission
+45-->[androidx.core:core:1.9.0-alpha05] /home/umesh/.gradle/caches/transforms-3/843edbc967822f62f809787091e04efb/transformed/core-1.9.0-alpha05/AndroidManifest.xml:23:5-25:47
+46        android:name="com.example.dummy_lat_long_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.9.0-alpha05] /home/umesh/.gradle/caches/transforms-3/843edbc967822f62f809787091e04efb/transformed/core-1.9.0-alpha05/AndroidManifest.xml:24:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.9.0-alpha05] /home/umesh/.gradle/caches/transforms-3/843edbc967822f62f809787091e04efb/transformed/core-1.9.0-alpha05/AndroidManifest.xml:25:9-44
+48
+49    <uses-permission android:name="com.example.dummy_lat_long_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+49-->[androidx.core:core:1.9.0-alpha05] /home/umesh/.gradle/caches/transforms-3/843edbc967822f62f809787091e04efb/transformed/core-1.9.0-alpha05/AndroidManifest.xml:27:5-97
+49-->[androidx.core:core:1.9.0-alpha05] /home/umesh/.gradle/caches/transforms-3/843edbc967822f62f809787091e04efb/transformed/core-1.9.0-alpha05/AndroidManifest.xml:27:22-94
+50    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+51    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+52    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+53    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+54    <!-- for Samsung -->
+55    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+55-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+56    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+56-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+57    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+57-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+57-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+58    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+58-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+58-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+59    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+59-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+59-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+60    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+60-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+60-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+61    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+61-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+61-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+62    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+62-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+62-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+63    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+63-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+64    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+64-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+65    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+65-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+65-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+66    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+66-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+66-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+67    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+67-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+67-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+68    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+68-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+68-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+69    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+69-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+69-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+70    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" /> -->
+70-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+70-->[me.leolin:ShortcutBadger:1.1.22] /home/umesh/.gradle/caches/transforms-3/e2d62b65ba99af7d59a3315cf4910598/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+71    <application
+72        android:name="android.app.Application"
+72-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:22:9-42
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.9.0-alpha05] /home/umesh/.gradle/caches/transforms-3/843edbc967822f62f809787091e04efb/transformed/core-1.9.0-alpha05/AndroidManifest.xml:29:18-86
+74        android:enableOnBackInvokedCallback="true"
+74-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:25:8-50
+75        android:icon="@mipmap/launcher_icon"
+75-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:23:9-45
+76        android:label="Driver App"
+76-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:21:9-35
+77        android:usesCleartextTraffic="true" >
+77-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:24:9-44
+78        <meta-data
+78-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:27:9-28:71
+79            android:name="com.google.android.geo.API_KEY"
+79-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:27:20-65
+80            android:value="AIzaSyDC39hfMT9JMv8M7HkITjgCiTwXYAtxM00" />
+80-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:28:13-68
+81
+82        <receiver
+82-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:30:8-38:19
+83            android:name="com.example.dummy_lat_long_app.MyDeviceAdminReceiver"
+83-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:30:18-85
+84            android:exported="true"
+84-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:32:12-35
+85            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+85-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:31:12-69
+86            <meta-data
+86-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:33:12-34:55
+87                android:name="android.app.device_admin"
+87-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:33:23-62
+88                android:resource="@xml/device_admin" />
+88-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:34:16-52
+89
+90            <intent-filter>
+90-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:35:12-37:28
+91                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+91-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:36:16-81
+91-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:36:24-78
+92            </intent-filter>
+93        </receiver>
+94
+95        <activity
+95-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:39:9-63:20
+96            android:name="com.example.dummy_lat_long_app.MainActivity"
+96-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:40:13-41
+97            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+97-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:44:13-163
+98            android:exported="true"
+98-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:41:13-36
+99            android:hardwareAccelerated="true"
+99-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:45:13-47
+100            android:launchMode="singleTop"
+100-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:42:13-43
+101            android:theme="@style/LaunchTheme"
+101-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:43:13-47
+102            android:windowSoftInputMode="adjustResize" >
+102-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:46:13-55
+103
+104            <!--
+105                 Specifies an Android theme to apply to this Activity as soon as
+106                 the Android process has started. This theme is visible to the user
+107                 while the Flutter UI initializes. After that, this theme continues
+108                 to determine the Window background behind the Flutter UI.
+109            -->
+110            <meta-data
+110-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:51:13-54:17
+111                android:name="io.flutter.embedding.android.NormalTheme"
+111-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:52:15-70
+112                android:resource="@style/NormalTheme" />
+112-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:53:15-52
+113
+114            <intent-filter>
+114-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:55:13-62:29
+115                <action android:name="android.intent.action.MAIN" />
+115-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:56:17-68
+115-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:56:25-66
+116
+117                <category android:name="android.intent.category.LAUNCHER" />
+117-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:57:17-76
+117-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:57:27-74
+118                <category android:name="android.intent.category.HOME" />
+118-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:58:17-73
+118-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:58:27-70
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:59:17-76
+119-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:59:27-73
+120            </intent-filter>
+121        </activity>
+122        <!--
+123             Don't delete the meta-data below.
+124             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+125        -->
+126        <meta-data
+126-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:66:9-68:33
+127            android:name="flutterEmbedding"
+127-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:67:13-44
+128            android:value="2" />
+128-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:68:13-30
+129
+130        <service
+130-->[:geolocator_android] /home/umesh/work/Location-app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+131            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+131-->[:geolocator_android] /home/umesh/work/Location-app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+132            android:enabled="true"
+132-->[:geolocator_android] /home/umesh/work/Location-app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+133            android:exported="false"
+133-->[:geolocator_android] /home/umesh/work/Location-app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+134            android:foregroundServiceType="location" />
+134-->[:geolocator_android] /home/umesh/work/Location-app/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+135
+136        <receiver
+136-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:40
+137            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver"
+137-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-121
+138            android:exported="false" />
+138-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+139        <receiver
+139-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+140            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver"
+140-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-121
+141            android:exported="false" />
+141-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+142        <receiver
+142-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+143            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver"
+143-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-115
+144            android:exported="false" />
+144-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+145        <receiver
+145-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-35:20
+146            android:name="me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshSchedulesReceiver"
+146-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-116
+147            android:exported="false" >
+147-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+148            <intent-filter>
+148-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-34:29
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:59:17-76
+149-->/home/umesh/work/Location-app/android/app/src/main/AndroidManifest.xml:59:27-73
+150
+151                <action android:name="android.intent.action.BOOT_COMPLETED" />
+151-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
+151-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
+152                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+152-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-86
+152-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-83
+153                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+153-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-84
+153-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-81
+154                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+154-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
+154-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
+155                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+155-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-82
+155-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-79
+156                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+156-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-107
+156-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-104
+157            </intent-filter>
+158        </receiver>
+159        <receiver
+159-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+160            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+160-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+161            android:exported="false" />
+161-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+162        <receiver
+162-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+163            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+163-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+164            android:exported="false" />
+164-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+165        <receiver
+165-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+166            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+166-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+167            android:exported="false" >
+167-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+168            <intent-filter>
+168-->[:flutter_local_notifications] /home/umesh/work/Location-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+169                <action android:name="android.intent.action.BOOT_COMPLETED" />
+169-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
+169-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
+170                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+170-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-84
+170-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-81
+171                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+171-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
+171-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
+172                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+172-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-82
+172-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-79
+173            </intent-filter>
+174        </receiver>
+175
+176        <service
+176-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:44
+177            android:name="id.flutter.flutter_background_service.BackgroundService"
+177-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-83
+178            android:enabled="true"
+178-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-35
+179            android:exported="true"
+179-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
+180            android:stopWithTask="false" />
+180-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-41
+181
+182        <receiver
+182-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-23:39
+183            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+183-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-82
+184            android:enabled="true"
+184-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-35
+185            android:exported="true" />
+185-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+186        <receiver
+186-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-32:20
+187            android:name="id.flutter.flutter_background_service.BootReceiver"
+187-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-78
+188            android:enabled="true"
+188-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-35
+189            android:exported="true" >
+189-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+190            <intent-filter>
+190-->[:flutter_background_service_android] /home/umesh/work/Location-app/build/flutter_background_service_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-31:29
+191                <action android:name="android.intent.action.BOOT_COMPLETED" />
+191-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
+191-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
+192                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+192-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
+192-->[:awesome_notifications] /home/umesh/work/Location-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
+193            </intent-filter>
+194        </receiver> <!-- Needs to be explicitly declared on P+ -->
+195        <uses-library
+195-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+196            android:name="org.apache.http.legacy"
+196-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+197            android:required="false" />
+197-->[com.google.android.gms:play-services-maps:18.1.0] /home/umesh/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+198
+199        <activity
+199-->[com.google.android.gms:play-services-base:18.0.1] /home/umesh/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+200            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+200-->[com.google.android.gms:play-services-base:18.0.1] /home/umesh/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-base:18.0.1] /home/umesh/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.google.android.gms:play-services-base:18.0.1] /home/umesh/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+203
+204        <meta-data
+204-->[com.google.android.gms:play-services-basement:18.0.0] /home/umesh/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+205            android:name="com.google.android.gms.version"
+205-->[com.google.android.gms:play-services-basement:18.0.0] /home/umesh/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+206            android:value="@integer/google_play_services_version" />
+206-->[com.google.android.gms:play-services-basement:18.0.0] /home/umesh/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+207
+208        <uses-library
+208-->[androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+209            android:name="androidx.window.extensions"
+209-->[androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+210            android:required="false" />
+210-->[androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+211        <uses-library
+211-->[androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+212            android:name="androidx.window.sidecar"
+212-->[androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+213            android:required="false" />
+213-->[androidx.window:window:1.0.0-beta04] /home/umesh/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+214
+215        <provider
+215-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+216            android:name="androidx.startup.InitializationProvider"
+216-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:27:13-67
+217            android:authorities="com.example.dummy_lat_long_app.androidx-startup"
+217-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:28:13-68
+218            android:exported="false" >
+218-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:29:13-37
+219            <meta-data
+219-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+220                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+220-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+221                android:value="androidx.startup" />
+221-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/umesh/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+222        </provider>
+223    </application>
+224
+225</manifest>
